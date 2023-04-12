@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output directories
+dist/
+out/
+build/
+
+# TypeScript cache
+.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
