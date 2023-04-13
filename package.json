@@ -19,7 +19,7 @@
     "filter"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
     "url": "https://github.com/CurpraCode/curpra-search-filter.git/issues"
