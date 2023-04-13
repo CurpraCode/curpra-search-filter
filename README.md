@@ -1,4 +1,4 @@
-# React TypeScript Search Filter
+# Curpra Search Filter
 
 A simple search filter component for React TypeScript projects.
 
@@ -23,7 +23,7 @@ Next, use the SearchFilter component in your application:
 
 ```typescript
 import React from 'react';
-import { SearchFilter } from 'search-filter';
+import { SearchFilter } from 'curpra-search-filter';
 
 interface DataItem {
   id: number;
@@ -62,12 +62,13 @@ export default App;
 
 ####    PropsType
 
-| Prop              | Type                                        |  Default     | Description                |
-| :--------         | :-------                                    |  :-------    | :------------------------- |
-| `data`            | `any[]`                                     |              | **Required**. Your API key |
-| `searchKeys`      | `string[]`                                  |              | **Required**. Your API key |
-| `placeholder`     | `string` (optional)                         |`'Search...'` | **Required**. Your API key |
-| `data`            | `(filteredData:any[])=>React.ReactElement`  |              | **Required**. Your API key |
+| Prop         | Type                          | Default          | Description                                                                 |
+| ------------ | ----------------------------- | ---------------- | --------------------------------------------------------------------------- |
+| `data`       | `any[]`                       |                  | The data array to be filtered.                                              |
+| `searchKeys` | `string[]`                    |                  | The keys to be used for filtering data.                                     |
+| `placeholder`| `string` (optional)           | `'Search...'`    | The placeholder text for the search input.                                  |
+| `render`     | `(filteredData: any[]) => React.ReactElement` | | A function that receives the filtered data and returns the JSX to render. |
+
 
 
 ## Authors
